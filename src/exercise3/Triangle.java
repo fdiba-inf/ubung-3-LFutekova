@@ -32,6 +32,7 @@ public class Triangle {
             }else{
                 System.out.println("Values are not correct!");
             }
-        }while(a <= 0 || b <= 0 || c <= 0);
+
+        }while(a > 0 && b > 0 && c > 0);
     }
 }
