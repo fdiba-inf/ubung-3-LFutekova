@@ -17,7 +17,7 @@ public class Triangle {
             if(a + c > b && a + b > c && b + c > a){
               double s = (a + b +c) / 2;
               double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
-              String triangleType = null;
+              String triangleType;
 
               if(a == b && a == c){
                   triangleType = "equilateral";
