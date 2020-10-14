@@ -15,10 +15,10 @@ public class AngleCalculation {
             type = typeString.charAt(0);
 
             if(type == 'd'){
-                calculatedAngle = (initialAngle * Math.PI) / 180;
+                calculatedAngle = initialAngle * Math.PI / 180;
                 newType = 'r';
             }else if(type == 'r'){
-                calculatedAngle = (initialAngle * 180) / Math.PI;
+                calculatedAngle = initialAngle * 180 / Math.PI;
                 newType = 'd';
             }
 
