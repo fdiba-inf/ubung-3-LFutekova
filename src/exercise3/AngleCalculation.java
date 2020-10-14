@@ -23,6 +23,6 @@ public class AngleCalculation {
             }
 
             System.out.println("Angle: " + calculatedAngle + newType);
-        }while(type == 'd' && type == 'r');
+        }while(type == 'd' || type == 'r');
     }
 }
