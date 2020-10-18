@@ -21,7 +21,7 @@ public class Triangle {
 
               if(a == b && a == c){
                   triangleType = "equilateral";
-              }else if(a == b || a == c){
+              }else if(a == b || a == c || c == b){
                   triangleType = "isosceles";
               }else {
                   triangleType = "scalene";
